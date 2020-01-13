@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src",
-    "dev": "npx webpack --env=dev --config=webpack/webpack.config.js",
+    "dev": "npx webpack-dev-server --env=dev --config=webpack/webpack.config.js",
     "deploy": "npx webpack --env=prod --config=webpack/webpack.config.js"
   },
   "husky": {
@@ -42,9 +42,11 @@
     "husky": "^3.1.0",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "firebase-tools": "^7.12.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }

@@ -11,3 +11,5 @@ Adding Webapck
 --Dev mode
 --Prod mode
 --create a mode in package.json
+https://jsdrome.com/post/tech/web/webpack-dev-server
+https://jsdrome.com/post/tech/web/firebase-hosting
