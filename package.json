@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src",
-    "devserver": "webpack-dev-server --env=dev --config=webpack/webpack.config.js",
+    "devserver": "webpack-dev-server --env=dev --open --config=webpack/webpack.config.js",
     "deploy": "webpack --env=prod --config=webpack/webpack.config.js",
     "dev": "webpack --config=webpack/webpack.config.js --env=dev",
     "firebase": "firebase deploy"
